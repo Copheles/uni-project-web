@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap" rel="stylesheet" />
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+  <!-- JavaScript Bundle with Popper -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+  <title>Car Showroom</title>
+</head>
+
+<body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+
+  <div class="container-fluid mb-5">
+    <nav class="navbar ms-5 navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <img src="images/logo.jpg" width="70px" alt="logo" class="nav__logo mt-2 " id="logo" designer="Jonas"
+          data-version-number="3.0" />
+        <button class="navbar-toggler toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-5 ">
+            <li class="nav-item mx-3 ">
+              <a class="nav-link" href="#section--1">Features</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="#section--2">Operations</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link " href="#section--3">Testimonials</a>
+            </li>
+            <li class="nav-item mx-3 text-sm-center ">
+              <a class="nav-link nav__link--btn btn--show-modal" href="#">Open account</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <div class="container">
+    <header>
+      <div class="header-title">
+        <div class="d-flex justify-content-evenly text-show">
+          <div class="front-text">
+            <h1 class="mb-4">
+              Quality
+              <span class="highlight">Cars </span>
+              with <br />
+              <span class="highlight">Unlimited Mile</span>
+            </h1>
+            <h4 class="mb-4">Money may not buy happiness, but I'd rather cry in a Jaguar than on a bus.</h4>
+            <button class="btn-learn-more mt-3">Learn more &DownArrow;</button>
+          </div>
+          <img src="images/green-lambo.png" class="header-img" alt="Car Show" height="500px" />
+        </div>
+
+      </div>
+    </header>
+
+    <section class="section" id="section--1">
+      <div class="section-title">
+        <h2 class="section-description">Features</h2>
+        <h3 class="section-header">
+          Everything you need in a modern car and more.
+        </h3>
+      </div>
+
+      <div class="features">
+        <div class="row">
+          <img src="images/car-collections.jpg" alt="" class="col features-img" height="380px">
+          <div class="col features-feature">
+            <div class="features-icon">
+              <svg>
+                <use xlink:href="images/icons.svg#icon-monitor"></use>
+              </svg>
+            </div>
+            <h5 class="features-header">100% digital bank</h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde alias
+              sint quos? Accusantium a fugiat porro reiciendis saepe quibusdam
+              debitis ducimus.
+            </p>
+          </div>
+
+        </div>
+        <div class="row">
+          <div class="col features-feature">
+            <div class="features-icon">
+              <svg>
+                <use xlink:href="images/icons.svg#icon-trending-up"></use>
+              </svg>
+            </div>
+            <h5 class="features-header">Watch your money grow</h5>
+            <p>
+              Nesciunt quos autem dolorum voluptates cum dolores dicta fuga
+              inventore ab? Nulla incidunt eius numquam sequi iste pariatur
+              quibusdam!
+            </p>
+          </div>
+          <img src="images/car-interior.jpg" class="col features-img mid-img" height="380px" />
+        </div>
+
+        <div class="row">
+          <img src="images/car-feature-1.jpg" class="col features-img lazy-img" />
+          <div class="col features-feature">
+            <div class="features-icon">
+              <svg>
+                <use xlink:href="images/icons.svg#icon-credit-card"></use>
+              </svg>
+            </div>
+            <h5 class="features-header">Free debit card included</h5>
+            <p>
+              Quasi, fugit in cumque cupiditate reprehenderit debitis animi enim
+              eveniet consequatur odit quam quos possimus assumenda dicta fuga
+              inventore ab.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="section" id="section--3">
+      <div class="section-title">
+        <h2 class="section-description">
+          Not sure yet?
+        </h2>
+        <h3 class="section-header">
+          Millions of people are already making their lives simpler
+        </h3>
+      </div>
+
+      <div id="carouselExampleIndicators" class="carousel-dark carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container bg-light text-dark text-center d-flex flex-column ">
+
+              <figure class="text-center">
+                <blockquote class="blockquote">
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+                </blockquote>
+                <figcaption class="blockquote-footer">
+                  Reviewed By <cite title="Source Title">Thomas Henry</cite>
+                </figcaption>
+              </figure>
+              <div class="container mw-50 my-4 d-flex justify-content-center">
+                <i class="ico bi bi-chat-right-quote mx-3"></i>
+                <p class="review-text">Quisquam itaque deserunt ullam, quia ea repellendus provident, ducimus neque
+                  ipsam modi voluptatibus
+                  doloremque, corrupti laborum. Incidunt numquam perferendis veritatis neque repellendus. Lorem, ipsum
+                  dolor sit amet consectetur adipisicing </p>
+              </div>
+              <img src="images/user-1.jpg" alt="" class="rounded-circle mx-auto mb-5">
+
+            </div>
+          </div>
+          <div class="carousel-item active">
+            <div class="container bg-light text-dark text-center d-flex flex-column ">
+
+              <figure class="text-center">
+                <blockquote class="blockquote">
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+                </blockquote>
+                <figcaption class="blockquote-footer">
+                  Reviewed By <cite title="Source Title">Emma Sophia</cite>
+                </figcaption>
+              </figure>
+              <div class="container mw-50 my-4 d-flex justify-content-center">
+                <i class="ico bi bi-chat-right-quote mx-3"></i>
+                <p class="review-text">Quisquam itaque deserunt ullam, quia ea repellendus provident, ducimus neque
+                  ipsam modi voluptatibus
+                  doloremque, corrupti laborum. Incidunt numquam perferendis veritatis neque repellendus. Lorem, ipsum
+                  dolor sit amet consectetur adipisicing </p>
+              </div>
+              <img src="images/user-2.jpg" alt="" class="rounded-circle mx-auto mb-5">
+
+            </div>
+          </div>
+          <div class="carousel-item active">
+            <div class="container bg-light text-dark text-center d-flex flex-column ">
+
+              <figure class="text-center">
+                <blockquote class="blockquote">
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+                </blockquote>
+                <figcaption class="blockquote-footer">
+                  Reviewed By <cite title="Source Title">Anthony Joesph</cite>
+                </figcaption>
+              </figure>
+              <div class="container mw-50 my-4 d-flex justify-content-center">
+                <i class="ico bi bi-chat-right-quote mx-3"></i>
+                <p class="review-text">Quisquam itaque deserunt ullam, quia ea repellendus provident, ducimus neque
+                  ipsam modi voluptatibus
+                  doloremque, corrupti laborum. Incidunt numquam perferendis veritatis neque repellendus. Lorem, ipsum
+                  dolor sit amet consectetur adipisicing </p>
+              </div>
+              <img src="images/user-3.jpg" alt="" class="rounded-circle mx-auto mb-5">
+
+            </div>
+          </div>
+
+
+        </div>
+        <button class="ico-btn carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev">
+          <span class=" carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="ico-btn carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next">
+          <span class=" carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    </section>
+  </div>
+
+  <!-- footer -->
+
+  <div>
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start text-white" style="background-color: #37383d">
+      <!-- Section: Social media -->
+      <section class="d-flex justify-content-between p-4" style="background-color: #37383d">
+        <!-- Left -->
+        <div class="me-5">
+          <span>Get connected with us on social networks:</span>
+        </div>
+        <!-- Left -->
+
+        <!-- Right -->
+        <div>
+          <a href="" class="text-white me-4">
+            <i class="fab fa-facebook"></i>
+          </a>
+          <a href="" class="text-white me-4">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="" class="text-white me-4">
+            <i class="fab fa-google"></i>
+          </a>
+          <a href="" class="text-white me-4">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="" class="text-white me-4">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="" class="text-white me-4">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+        <!-- Right -->
+      </section>
+      <!-- Section: Social media -->
+
+      <!-- Section: Links  -->
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+          <!-- Grid row -->
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <!-- Content -->
+              <h6 class="text-uppercase fw-bold">Company name</h6>
+              <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px" />
+              <p>
+                Here you can use rows and columns to organize your footer
+                content. Lorem ipsum dolor sit amet, consectetur adipisicing
+                elit.
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold">Products</h6>
+              <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px" />
+              <p>
+                <a href="#!" class="text-white">MDBootstrap</a>
+              </p>
+              <p>
+                <a href="#!" class="text-white">MDWordPress</a>
+              </p>
+              <p>
+                <a href="#!" class="text-white">BrandFlow</a>
+              </p>
+              <p>
+                <a href="#!" class="text-white">Bootstrap Angular</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold">Useful links</h6>
+              <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px" />
+              <p>
+                <a href="#!" class="text-white">Your Account</a>
+              </p>
+              <p>
+                <a href="#!" class="text-white">Become an Affiliate</a>
+              </p>
+              <p>
+                <a href="#!" class="text-white">Shipping Rates</a>
+              </p>
+              <p>
+                <a href="#!" class="text-white">Help</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold">Contact</h6>
+              <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px" />
+              <p><i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+              <p><i class="fas fa-envelope mr-3"></i> info@example.com</p>
+              <p><i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+              <p><i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+      </section>
+      <!-- Section: Links  -->
+
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        © 2020 Copyright:
+        <a class="text-white" href="https://github.com/Copheles">Copheles</a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+  </div>
+  <!-- End of .container -->
+</body>
+
+</html>
